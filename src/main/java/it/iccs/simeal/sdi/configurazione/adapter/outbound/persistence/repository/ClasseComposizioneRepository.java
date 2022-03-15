@@ -1,0 +1,17 @@
+package it.iccs.simeal.sdi.configurazione.adapter.outbound.persistence.repository;
+
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.stereotype.Repository;
+
+import it.iccs.simeal.sdi.configurazione.adapter.outbound.persistence.repository.entity.ClasseComposizioneEntity;
+
+@Repository
+public interface ClasseComposizioneRepository extends JpaRepository<ClasseComposizioneEntity, UUID>, JpaSpecificationExecutor<ClasseComposizioneEntity> {
+	
+	List<ClasseComposizioneEntity> findBySezione_Id(UUID id);
+	
+}
