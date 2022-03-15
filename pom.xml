@@ -14,7 +14,8 @@
 	<name>sdi-tabelle-service</name>
 	<description>Microservizio di Tabelle per Simeal</description>
 	<properties>
-		<java.version>17</java.version>
+<!--		<java.version>17</java.version>-->
+		<java.version>11</java.version>
 		<spring-boot.version>2.6.3</spring-boot.version>
 		<validation-api.version>2.0.1.Final</validation-api.version>
 		<mapstruct.version>1.4.2.Final</mapstruct.version>
