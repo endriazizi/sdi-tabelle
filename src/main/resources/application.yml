@@ -4,6 +4,13 @@
 server:
   port: 8000
 
+java:
+  runtime:
+    version: 11
+
+maven:
+  version: 3.6.2
+
 spring:
   application:
     name: sdiconfigurazioneservice
