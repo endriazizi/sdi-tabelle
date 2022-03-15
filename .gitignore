@@ -1,6 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Maven template
-./target/
+# ./sdi_configurazione/target/
+.classpath
+.project
+.settings/
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
