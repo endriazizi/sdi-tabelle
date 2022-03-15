@@ -2,7 +2,7 @@
 # = Sdi Configurazione Web Service - Versione Base
 # ==============================================================
 server:
-  port: 8000
+  port: 8080
 
 #java:
 #  runtime:
